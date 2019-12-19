@@ -1,4 +1,10 @@
 {
   "extends": ["config:base"],
-  "bundler": { "enabled": true }
+  "bundler": { "enabled": true },
+  "automerge": true,
+  "automergeType": "pr",
+  "major": {
+    "automerge": false,
+    "masterIssueApproval": true
+  }
 }
